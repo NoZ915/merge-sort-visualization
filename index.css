@@ -1,0 +1,50 @@
+*{
+    border: 1px black solid;
+}
+
+span.error-text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+body > div{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+section.animation-area {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow-x: auto;
+}
+div.array-container{
+    left: 100px;
+}
+section.animation-area div.array-container {
+    display: inline-flex;
+    position: absolute;
+}
+section.animation-area div.array-container div.array-element {
+    height: 40px;
+    width: 40px;
+    margin: 0 1px 0 1px;
+    background: #d41e1e;
+    text-align: center;
+    font-family: "Livvic", sans-serif;
+    font-weight: bold;
+}
+section.animation-area div.array-container div.array-element p {
+    font-size: 14px;
+    line-height: 14px;
+}
